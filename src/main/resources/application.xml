@@ -5,8 +5,11 @@
        xmlns:mvc="http://www.springframework.org/schema/mvc"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/mvc https://www.springframework.org/schema/mvc/spring-mvc.xsd">
 
+
+    <!--  全局Bean扫描  -->
     <context:component-scan base-package="com.chenjiacheng.webapp"/>
 
+    <!--  spring mvc配置 -->
     <mvc:default-servlet-handler/>
     <mvc:annotation-driven/>
 
@@ -15,5 +18,11 @@
         <property name="prefix" value="/views/"/>
         <property name="suffix" value=".jsp"/>
     </bean>
+
+    <!--  datasource配置  -->
+
+    <!--  datasource路由配置  -->
+
+    <!--  mybatis配置  -->
 
 </beans>

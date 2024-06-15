@@ -36,6 +36,7 @@ public class OrderController {
             return new Result<>();
         }catch (Exception e){
             //5. 异常处理
+            log.error("exception:{}",e,e.getCause());
             return new Result<>();
         }
     }

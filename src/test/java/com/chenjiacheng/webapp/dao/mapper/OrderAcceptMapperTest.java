@@ -33,19 +33,19 @@ public class OrderAcceptMapperTest {
     @Test
     public void insert() {
 
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 100; i++) {
             String datasource;
-            if (i <5) {
+            if (i %2==0) {
                 datasource = "dataSource1";
             } else {
                 datasource = "dataSource2";
             }
             serverConfig.setDatasource(datasource);
-            try {
-                TimeUnit.SECONDS.sleep(1L);
-            } catch (InterruptedException e) {
-                throw new RuntimeException(e);
-            }
+            // try {
+            //     TimeUnit.SECONDS.sleep(1L);
+            // } catch (InterruptedException e) {
+            //     throw new RuntimeException(e);
+            // }
 
 
             String order = datasource + "-" + UUID.randomUUID().toString().replace("-", "");

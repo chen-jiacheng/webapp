@@ -1,0 +1,1 @@
+INSERT INTO `${db}`.`order_accept_${date}` (`id`, `create_time`, `update_time`, `request_date`, `order_no`, `order_data`, `order_status`) VALUES (null, now(), now(), '${dateTime}', '${data}', '${data}', 1);

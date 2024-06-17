@@ -3,11 +3,9 @@ package com.chenjiacheng.webapp.config.datasource;
 import com.chenjiacheng.webapp.config.ServerConfig;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.datasource.lookup.AbstractRoutingDataSource;
- 
+
 import javax.sql.DataSource;
 import java.util.Map;
-
-import static com.sun.xml.internal.ws.encoding.xml.XMLMessage.getDataSource;
 
 public class DynamicDataSource extends AbstractRoutingDataSource {
 // 使用ThreadLocal来存储当前线程的数据源名称，保证多线程情况下，各自的数据源互不影响
@@ -19,7 +17,7 @@ public class DynamicDataSource extends AbstractRoutingDataSource {
         // 将注册的数据源以及设置的默认数据源设置到父类对应的成员变量中
         super.setDefaultTargetDataSource(defaultTargetDataSource);
         super.setTargetDataSources(targetDataSources);
-        // super.afterPropertiesSet();
+        super.afterPropertiesSet();
     }
 
     // 返回当前数据源

@@ -34,7 +34,6 @@ public class TransactionOrderServiceTestImpl implements TransactionOrderServiceT
     public List<String> doubleWrite() {
         List<String> orderNos = new ArrayList<>();
 
-
         for (int i = 0; i < 2; i++) {
             String order = serverConfig.getDatasource() + "-" + UUID.randomUUID().toString().replace("-", "");
 
@@ -49,10 +48,7 @@ public class TransactionOrderServiceTestImpl implements TransactionOrderServiceT
                 System.out.println("orderNos = " + orderNos);
                 throw new RuntimeException("触发异常");
             }
-
             orderAcceptMapper.insert(orderAccept);
-
-
         }
         return orderNos;
     }

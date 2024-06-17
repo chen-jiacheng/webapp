@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.chenjiacheng.webapp.dao.mapper.OrderAcceptMapper">
+    <resultMap id="OrderAccept" type="com.chenjiacheng.webapp.dao.model.OrderAcceptDO">
+        <result property="id" column="id" javaType="java.lang.Long" jdbcType="INTEGER"/>
+        <result property="createTime" column="create_time" javaType="java.util.Date" jdbcType="DATE"/>
+        <result property="updateTime" column="update_time" javaType="java.util.Date" jdbcType="DATE"/>
+        <result property="requestDate" column="request_date" javaType="java.util.Date" jdbcType="DATE"/>
+        <result property="orderNo" column="order_no" javaType="java.lang.String" jdbcType="VARCHAR"/>
+        <result property="orderData" column="order_data" javaType="java.lang.String" jdbcType="VARCHAR"/>
+        <result property="orderStatus" column="order_status" javaType="java.lang.Integer" jdbcType="INTEGER"/>
+    </resultMap>
+    <sql id="cols">
+        `id`,
+        create_time,
+        update_time,
+        request_date,
+        order_no,
+        order_data,
+        order_status
+    </sql>
+
+    <insert id="insert" parameterType="com.chenjiacheng.webapp.dao.model.OrderAcceptDO">
+        insert into order_accept(
+        <include refid="cols"/>
+        )
+        values (
+        null,
+        now(),
+        now(),
+        #{requestDate},
+        #{orderNo,jdbcType=VARCHAR},
+        #{orderData,jdbcType=VARCHAR},
+        #{orderStatus}
+        )
+    </insert>
+
+    <!--    <select id="getUser" resultMap="user" parameterType="java.lang.Integer">-->
+    <!--        select * from user where id = #{id}-->
+    <!--    </select>-->
+</mapper>

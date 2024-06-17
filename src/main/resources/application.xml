@@ -23,51 +23,34 @@
 
     <!--  datasource配置  -->
     <!-- Database configuration   -->
-    <bean id="dataSource1" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
-        <property name="driverClassName" value="com.mysql.cj.jdbc.Driver"/>
-        <property name="url" value="jdbc:mysql://127.0.0.1:3306/webapp"/>
-        <property name="username" value="root"/>
-        <property name="password" value="Yqywf,Rmhpy.1@"/>
-    </bean>
+    <tx:annotation-driven transaction-manager="transactionManager"/>
 
-    <bean id="dataSource2" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
-        <property name="driverClassName" value="com.mysql.cj.jdbc.Driver"/>
-        <property name="url" value="jdbc:mysql://127.0.0.1:3306/webapp_ob"/>
-        <property name="username" value="root"/>
-        <property name="password" value="Yqywf,Rmhpy.1@"/>
-    </bean>
+    <!-- shardingDatasource   -->
+    <import resource="spring-datasource-sharding.xml"/>
+    <!-- partitionDatasource   -->
+    <import resource="spring-datasource-partition.xml"/>
 
-    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
-        <property name="dataSource" ref="dataSource1"/>
-    </bean>
-
-
+    <!--  多数据源配置  -->
     <bean id="dynamicDataSource" class="com.chenjiacheng.webapp.config.datasource.DynamicDataSource">
-        <constructor-arg index="0" ref="dataSource1"/>
+        <constructor-arg index="0" ref="shardingDatasource"/>
         <constructor-arg index="1">
             <map>
-                <entry key="dataSource1" value-ref="dataSource1"/>
-                <entry key="dataSource2" value-ref="dataSource2"/>
+                <entry key="shardingDatasource" value-ref="shardingDatasource"/>
+                <entry key="partitionDatasource" value-ref="partitionDatasource"/>
             </map>
         </constructor-arg>
     </bean>
 
     <bean id="serverConfig" class="com.chenjiacheng.webapp.config.ServerConfig">
-        <property name="datasource" value="dataSource1"/>
+        <property name="datasource" value="shardingDatasource"/>
     </bean>
 
-    <tx:annotation-driven transaction-manager="transactionManager"/>
-
+    <!-- mybatis 配置  -->
     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
-        <property name="configLocation" value="mybatis-config.xml"/>
         <property name="dataSource" ref="dynamicDataSource"/>
+        <property name="configLocation" value="mybatis-config.xml"/>
         <property name="mapperLocations" value="classpath*:mappers/*Mapper.xml"/>
     </bean>
+
     <mybatis-spring:scan base-package="com.chenjiacheng.webapp.dao.mapper"/>
-
-
-
-
-
-
 </beans>

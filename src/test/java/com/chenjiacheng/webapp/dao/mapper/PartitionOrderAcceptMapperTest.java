@@ -7,12 +7,10 @@ import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringRunner;
-import org.springframework.transaction.annotation.Transactional;
 
 import javax.annotation.Resource;
 import java.util.Date;
 import java.util.UUID;
-import java.util.concurrent.TimeUnit;
 
 /**
  * Created by chenjiacheng on 2024/6/15 20:54
@@ -22,30 +20,22 @@ import java.util.concurrent.TimeUnit;
  */
 @RunWith(SpringRunner.class)
 @ContextConfiguration(locations = "classpath:application.xml")
-public class OrderAcceptMapperTest {
+public class PartitionOrderAcceptMapperTest {
 
     @Resource
     private OrderAcceptMapper orderAcceptMapper;
-
-    @Autowired
-    private ServerConfig serverConfig;
 
     @Test
     public void insert() {
 
         for (int i = 0; i < 100; i++) {
-            String datasource;
-            if (i % 2 == 0) {
-                datasource = "shardingDatasource";
-            } else {
-                datasource = "partitionDatasource";
-            }
-            serverConfig.setDatasource(datasource);
-
+            String datasource="Partition-db";
             String order = datasource + "-" + UUID.randomUUID().toString().replace("-", "");
 
             OrderAcceptDO orderAccept = new OrderAcceptDO();
             orderAccept.setRequestDate(new Date());
+            orderAccept.setCreateTime(new Date());
+            orderAccept.setUpdateTime(new Date());
             orderAccept.setOrderNo(order);
             orderAccept.setOrderData(order);
             orderAccept.setOrderStatus(1);

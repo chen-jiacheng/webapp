@@ -1,4 +1,4 @@
-CREATE TABLE `order_accept_2024-01-01`
+CREATE TABLE `order_accept_20240101`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -12,7 +12,7 @@ CREATE TABLE `order_accept_2024-01-01`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-01-02`
+CREATE TABLE `order_accept_20240102`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -26,7 +26,7 @@ CREATE TABLE `order_accept_2024-01-02`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-01-03`
+CREATE TABLE `order_accept_20240103`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -40,7 +40,7 @@ CREATE TABLE `order_accept_2024-01-03`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-01-04`
+CREATE TABLE `order_accept_20240104`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -54,7 +54,7 @@ CREATE TABLE `order_accept_2024-01-04`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-01-05`
+CREATE TABLE `order_accept_20240105`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -68,7 +68,7 @@ CREATE TABLE `order_accept_2024-01-05`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-01-06`
+CREATE TABLE `order_accept_20240106`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -82,7 +82,7 @@ CREATE TABLE `order_accept_2024-01-06`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-01-07`
+CREATE TABLE `order_accept_20240107`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -96,7 +96,7 @@ CREATE TABLE `order_accept_2024-01-07`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-01-08`
+CREATE TABLE `order_accept_20240108`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -110,7 +110,7 @@ CREATE TABLE `order_accept_2024-01-08`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-01-09`
+CREATE TABLE `order_accept_20240109`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -124,7 +124,7 @@ CREATE TABLE `order_accept_2024-01-09`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-01-10`
+CREATE TABLE `order_accept_20240110`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -138,7 +138,7 @@ CREATE TABLE `order_accept_2024-01-10`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-01-11`
+CREATE TABLE `order_accept_20240111`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -152,7 +152,7 @@ CREATE TABLE `order_accept_2024-01-11`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-01-12`
+CREATE TABLE `order_accept_20240112`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -166,7 +166,7 @@ CREATE TABLE `order_accept_2024-01-12`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-01-13`
+CREATE TABLE `order_accept_20240113`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -180,7 +180,7 @@ CREATE TABLE `order_accept_2024-01-13`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-01-14`
+CREATE TABLE `order_accept_20240114`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -194,7 +194,7 @@ CREATE TABLE `order_accept_2024-01-14`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-01-15`
+CREATE TABLE `order_accept_20240115`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -208,7 +208,7 @@ CREATE TABLE `order_accept_2024-01-15`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-01-16`
+CREATE TABLE `order_accept_20240116`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -222,7 +222,7 @@ CREATE TABLE `order_accept_2024-01-16`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-01-17`
+CREATE TABLE `order_accept_20240117`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -236,7 +236,7 @@ CREATE TABLE `order_accept_2024-01-17`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-01-18`
+CREATE TABLE `order_accept_20240118`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -250,7 +250,7 @@ CREATE TABLE `order_accept_2024-01-18`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-01-19`
+CREATE TABLE `order_accept_20240119`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -264,7 +264,7 @@ CREATE TABLE `order_accept_2024-01-19`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-01-20`
+CREATE TABLE `order_accept_20240120`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -278,7 +278,7 @@ CREATE TABLE `order_accept_2024-01-20`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-01-21`
+CREATE TABLE `order_accept_20240121`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -292,7 +292,7 @@ CREATE TABLE `order_accept_2024-01-21`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-01-22`
+CREATE TABLE `order_accept_20240122`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -306,7 +306,7 @@ CREATE TABLE `order_accept_2024-01-22`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-01-23`
+CREATE TABLE `order_accept_20240123`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -320,7 +320,7 @@ CREATE TABLE `order_accept_2024-01-23`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-01-24`
+CREATE TABLE `order_accept_20240124`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -334,7 +334,7 @@ CREATE TABLE `order_accept_2024-01-24`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-01-25`
+CREATE TABLE `order_accept_20240125`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -348,7 +348,7 @@ CREATE TABLE `order_accept_2024-01-25`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-01-26`
+CREATE TABLE `order_accept_20240126`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -362,7 +362,7 @@ CREATE TABLE `order_accept_2024-01-26`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-01-27`
+CREATE TABLE `order_accept_20240127`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -376,7 +376,7 @@ CREATE TABLE `order_accept_2024-01-27`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-01-28`
+CREATE TABLE `order_accept_20240128`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -390,7 +390,7 @@ CREATE TABLE `order_accept_2024-01-28`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-01-29`
+CREATE TABLE `order_accept_20240129`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -404,7 +404,7 @@ CREATE TABLE `order_accept_2024-01-29`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-01-30`
+CREATE TABLE `order_accept_20240130`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -418,7 +418,7 @@ CREATE TABLE `order_accept_2024-01-30`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-01-31`
+CREATE TABLE `order_accept_20240131`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -432,7 +432,7 @@ CREATE TABLE `order_accept_2024-01-31`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-02-01`
+CREATE TABLE `order_accept_20240201`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -446,7 +446,7 @@ CREATE TABLE `order_accept_2024-02-01`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-02-02`
+CREATE TABLE `order_accept_20240202`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -460,7 +460,7 @@ CREATE TABLE `order_accept_2024-02-02`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-02-03`
+CREATE TABLE `order_accept_20240203`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -474,7 +474,7 @@ CREATE TABLE `order_accept_2024-02-03`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-02-04`
+CREATE TABLE `order_accept_20240204`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -488,7 +488,7 @@ CREATE TABLE `order_accept_2024-02-04`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-02-05`
+CREATE TABLE `order_accept_20240205`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -502,7 +502,7 @@ CREATE TABLE `order_accept_2024-02-05`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-02-06`
+CREATE TABLE `order_accept_20240206`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -516,7 +516,7 @@ CREATE TABLE `order_accept_2024-02-06`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-02-07`
+CREATE TABLE `order_accept_20240207`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -530,7 +530,7 @@ CREATE TABLE `order_accept_2024-02-07`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-02-08`
+CREATE TABLE `order_accept_20240208`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -544,7 +544,7 @@ CREATE TABLE `order_accept_2024-02-08`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-02-09`
+CREATE TABLE `order_accept_20240209`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -558,7 +558,7 @@ CREATE TABLE `order_accept_2024-02-09`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-02-10`
+CREATE TABLE `order_accept_20240210`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -572,7 +572,7 @@ CREATE TABLE `order_accept_2024-02-10`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-02-11`
+CREATE TABLE `order_accept_20240211`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -586,7 +586,7 @@ CREATE TABLE `order_accept_2024-02-11`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-02-12`
+CREATE TABLE `order_accept_20240212`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -600,7 +600,7 @@ CREATE TABLE `order_accept_2024-02-12`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-02-13`
+CREATE TABLE `order_accept_20240213`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -614,7 +614,7 @@ CREATE TABLE `order_accept_2024-02-13`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-02-14`
+CREATE TABLE `order_accept_20240214`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -628,7 +628,7 @@ CREATE TABLE `order_accept_2024-02-14`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-02-15`
+CREATE TABLE `order_accept_20240215`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -642,7 +642,7 @@ CREATE TABLE `order_accept_2024-02-15`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-02-16`
+CREATE TABLE `order_accept_20240216`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -656,7 +656,7 @@ CREATE TABLE `order_accept_2024-02-16`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-02-17`
+CREATE TABLE `order_accept_20240217`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -670,7 +670,7 @@ CREATE TABLE `order_accept_2024-02-17`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-02-18`
+CREATE TABLE `order_accept_20240218`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -684,7 +684,7 @@ CREATE TABLE `order_accept_2024-02-18`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-02-19`
+CREATE TABLE `order_accept_20240219`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -698,7 +698,7 @@ CREATE TABLE `order_accept_2024-02-19`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-02-20`
+CREATE TABLE `order_accept_20240220`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -712,7 +712,7 @@ CREATE TABLE `order_accept_2024-02-20`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-02-21`
+CREATE TABLE `order_accept_20240221`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -726,7 +726,7 @@ CREATE TABLE `order_accept_2024-02-21`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-02-22`
+CREATE TABLE `order_accept_20240222`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -740,7 +740,7 @@ CREATE TABLE `order_accept_2024-02-22`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-02-23`
+CREATE TABLE `order_accept_20240223`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -754,7 +754,7 @@ CREATE TABLE `order_accept_2024-02-23`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-02-24`
+CREATE TABLE `order_accept_20240224`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -768,7 +768,7 @@ CREATE TABLE `order_accept_2024-02-24`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-02-25`
+CREATE TABLE `order_accept_20240225`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -782,7 +782,7 @@ CREATE TABLE `order_accept_2024-02-25`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-02-26`
+CREATE TABLE `order_accept_20240226`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -796,7 +796,7 @@ CREATE TABLE `order_accept_2024-02-26`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-02-27`
+CREATE TABLE `order_accept_20240227`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -810,7 +810,7 @@ CREATE TABLE `order_accept_2024-02-27`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-02-28`
+CREATE TABLE `order_accept_20240228`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -824,7 +824,7 @@ CREATE TABLE `order_accept_2024-02-28`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-02-29`
+CREATE TABLE `order_accept_20240229`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -838,7 +838,7 @@ CREATE TABLE `order_accept_2024-02-29`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-03-01`
+CREATE TABLE `order_accept_20240301`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -852,7 +852,7 @@ CREATE TABLE `order_accept_2024-03-01`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-03-02`
+CREATE TABLE `order_accept_20240302`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -866,7 +866,7 @@ CREATE TABLE `order_accept_2024-03-02`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-03-03`
+CREATE TABLE `order_accept_20240303`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -880,7 +880,7 @@ CREATE TABLE `order_accept_2024-03-03`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-03-04`
+CREATE TABLE `order_accept_20240304`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -894,7 +894,7 @@ CREATE TABLE `order_accept_2024-03-04`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-03-05`
+CREATE TABLE `order_accept_20240305`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -908,7 +908,7 @@ CREATE TABLE `order_accept_2024-03-05`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-03-06`
+CREATE TABLE `order_accept_20240306`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -922,7 +922,7 @@ CREATE TABLE `order_accept_2024-03-06`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-03-07`
+CREATE TABLE `order_accept_20240307`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -936,7 +936,7 @@ CREATE TABLE `order_accept_2024-03-07`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-03-08`
+CREATE TABLE `order_accept_20240308`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -950,7 +950,7 @@ CREATE TABLE `order_accept_2024-03-08`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-03-09`
+CREATE TABLE `order_accept_20240309`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -964,7 +964,7 @@ CREATE TABLE `order_accept_2024-03-09`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-03-10`
+CREATE TABLE `order_accept_20240310`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -978,7 +978,7 @@ CREATE TABLE `order_accept_2024-03-10`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-03-11`
+CREATE TABLE `order_accept_20240311`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -992,7 +992,7 @@ CREATE TABLE `order_accept_2024-03-11`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-03-12`
+CREATE TABLE `order_accept_20240312`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -1006,7 +1006,7 @@ CREATE TABLE `order_accept_2024-03-12`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-03-13`
+CREATE TABLE `order_accept_20240313`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -1020,7 +1020,7 @@ CREATE TABLE `order_accept_2024-03-13`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-03-14`
+CREATE TABLE `order_accept_20240314`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -1034,7 +1034,7 @@ CREATE TABLE `order_accept_2024-03-14`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-03-15`
+CREATE TABLE `order_accept_20240315`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -1048,7 +1048,7 @@ CREATE TABLE `order_accept_2024-03-15`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-03-16`
+CREATE TABLE `order_accept_20240316`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -1062,7 +1062,7 @@ CREATE TABLE `order_accept_2024-03-16`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-03-17`
+CREATE TABLE `order_accept_20240317`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -1076,7 +1076,7 @@ CREATE TABLE `order_accept_2024-03-17`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-03-18`
+CREATE TABLE `order_accept_20240318`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -1090,7 +1090,7 @@ CREATE TABLE `order_accept_2024-03-18`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-03-19`
+CREATE TABLE `order_accept_20240319`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -1104,7 +1104,7 @@ CREATE TABLE `order_accept_2024-03-19`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-03-20`
+CREATE TABLE `order_accept_20240320`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -1118,7 +1118,7 @@ CREATE TABLE `order_accept_2024-03-20`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-03-21`
+CREATE TABLE `order_accept_20240321`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -1132,7 +1132,7 @@ CREATE TABLE `order_accept_2024-03-21`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-03-22`
+CREATE TABLE `order_accept_20240322`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -1146,7 +1146,7 @@ CREATE TABLE `order_accept_2024-03-22`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-03-23`
+CREATE TABLE `order_accept_20240323`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -1160,7 +1160,7 @@ CREATE TABLE `order_accept_2024-03-23`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-03-24`
+CREATE TABLE `order_accept_20240324`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -1174,7 +1174,7 @@ CREATE TABLE `order_accept_2024-03-24`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-03-25`
+CREATE TABLE `order_accept_20240325`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -1188,7 +1188,7 @@ CREATE TABLE `order_accept_2024-03-25`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-03-26`
+CREATE TABLE `order_accept_20240326`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -1202,7 +1202,7 @@ CREATE TABLE `order_accept_2024-03-26`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-03-27`
+CREATE TABLE `order_accept_20240327`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -1216,7 +1216,7 @@ CREATE TABLE `order_accept_2024-03-27`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-03-28`
+CREATE TABLE `order_accept_20240328`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -1230,7 +1230,7 @@ CREATE TABLE `order_accept_2024-03-28`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-03-29`
+CREATE TABLE `order_accept_20240329`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -1244,7 +1244,7 @@ CREATE TABLE `order_accept_2024-03-29`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-03-30`
+CREATE TABLE `order_accept_20240330`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -1258,7 +1258,7 @@ CREATE TABLE `order_accept_2024-03-30`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-03-31`
+CREATE TABLE `order_accept_20240331`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -1272,7 +1272,7 @@ CREATE TABLE `order_accept_2024-03-31`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-04-01`
+CREATE TABLE `order_accept_20240401`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -1286,7 +1286,7 @@ CREATE TABLE `order_accept_2024-04-01`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-04-02`
+CREATE TABLE `order_accept_20240402`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -1300,7 +1300,7 @@ CREATE TABLE `order_accept_2024-04-02`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-04-03`
+CREATE TABLE `order_accept_20240403`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -1314,7 +1314,7 @@ CREATE TABLE `order_accept_2024-04-03`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-04-04`
+CREATE TABLE `order_accept_20240404`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -1328,7 +1328,7 @@ CREATE TABLE `order_accept_2024-04-04`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-04-05`
+CREATE TABLE `order_accept_20240405`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -1342,7 +1342,7 @@ CREATE TABLE `order_accept_2024-04-05`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-04-06`
+CREATE TABLE `order_accept_20240406`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -1356,7 +1356,7 @@ CREATE TABLE `order_accept_2024-04-06`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-04-07`
+CREATE TABLE `order_accept_20240407`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -1370,7 +1370,7 @@ CREATE TABLE `order_accept_2024-04-07`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-04-08`
+CREATE TABLE `order_accept_20240408`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -1384,7 +1384,7 @@ CREATE TABLE `order_accept_2024-04-08`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-04-09`
+CREATE TABLE `order_accept_20240409`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -1398,7 +1398,7 @@ CREATE TABLE `order_accept_2024-04-09`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-04-10`
+CREATE TABLE `order_accept_20240410`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -1412,7 +1412,7 @@ CREATE TABLE `order_accept_2024-04-10`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-04-11`
+CREATE TABLE `order_accept_20240411`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -1426,7 +1426,7 @@ CREATE TABLE `order_accept_2024-04-11`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-04-12`
+CREATE TABLE `order_accept_20240412`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -1440,7 +1440,7 @@ CREATE TABLE `order_accept_2024-04-12`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-04-13`
+CREATE TABLE `order_accept_20240413`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -1454,7 +1454,7 @@ CREATE TABLE `order_accept_2024-04-13`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-04-14`
+CREATE TABLE `order_accept_20240414`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -1468,7 +1468,7 @@ CREATE TABLE `order_accept_2024-04-14`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-04-15`
+CREATE TABLE `order_accept_20240415`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -1482,7 +1482,7 @@ CREATE TABLE `order_accept_2024-04-15`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-04-16`
+CREATE TABLE `order_accept_20240416`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -1496,7 +1496,7 @@ CREATE TABLE `order_accept_2024-04-16`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-04-17`
+CREATE TABLE `order_accept_20240417`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -1510,7 +1510,7 @@ CREATE TABLE `order_accept_2024-04-17`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-04-18`
+CREATE TABLE `order_accept_20240418`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -1524,7 +1524,7 @@ CREATE TABLE `order_accept_2024-04-18`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-04-19`
+CREATE TABLE `order_accept_20240419`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -1538,7 +1538,7 @@ CREATE TABLE `order_accept_2024-04-19`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-04-20`
+CREATE TABLE `order_accept_20240420`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -1552,7 +1552,7 @@ CREATE TABLE `order_accept_2024-04-20`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-04-21`
+CREATE TABLE `order_accept_20240421`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -1566,7 +1566,7 @@ CREATE TABLE `order_accept_2024-04-21`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-04-22`
+CREATE TABLE `order_accept_20240422`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -1580,7 +1580,7 @@ CREATE TABLE `order_accept_2024-04-22`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-04-23`
+CREATE TABLE `order_accept_20240423`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -1594,7 +1594,7 @@ CREATE TABLE `order_accept_2024-04-23`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-04-24`
+CREATE TABLE `order_accept_20240424`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -1608,7 +1608,7 @@ CREATE TABLE `order_accept_2024-04-24`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-04-25`
+CREATE TABLE `order_accept_20240425`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -1622,7 +1622,7 @@ CREATE TABLE `order_accept_2024-04-25`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-04-26`
+CREATE TABLE `order_accept_20240426`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -1636,7 +1636,7 @@ CREATE TABLE `order_accept_2024-04-26`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-04-27`
+CREATE TABLE `order_accept_20240427`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -1650,7 +1650,7 @@ CREATE TABLE `order_accept_2024-04-27`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-04-28`
+CREATE TABLE `order_accept_20240428`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -1664,7 +1664,7 @@ CREATE TABLE `order_accept_2024-04-28`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-04-29`
+CREATE TABLE `order_accept_20240429`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -1678,7 +1678,7 @@ CREATE TABLE `order_accept_2024-04-29`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-04-30`
+CREATE TABLE `order_accept_20240430`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -1692,7 +1692,7 @@ CREATE TABLE `order_accept_2024-04-30`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-05-01`
+CREATE TABLE `order_accept_20240501`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -1706,7 +1706,7 @@ CREATE TABLE `order_accept_2024-05-01`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-05-02`
+CREATE TABLE `order_accept_20240502`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -1720,7 +1720,7 @@ CREATE TABLE `order_accept_2024-05-02`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-05-03`
+CREATE TABLE `order_accept_20240503`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -1734,7 +1734,7 @@ CREATE TABLE `order_accept_2024-05-03`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-05-04`
+CREATE TABLE `order_accept_20240504`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -1748,7 +1748,7 @@ CREATE TABLE `order_accept_2024-05-04`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-05-05`
+CREATE TABLE `order_accept_20240505`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -1762,7 +1762,7 @@ CREATE TABLE `order_accept_2024-05-05`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-05-06`
+CREATE TABLE `order_accept_20240506`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -1776,7 +1776,7 @@ CREATE TABLE `order_accept_2024-05-06`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-05-07`
+CREATE TABLE `order_accept_20240507`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -1790,7 +1790,7 @@ CREATE TABLE `order_accept_2024-05-07`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-05-08`
+CREATE TABLE `order_accept_20240508`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -1804,7 +1804,7 @@ CREATE TABLE `order_accept_2024-05-08`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-05-09`
+CREATE TABLE `order_accept_20240509`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -1818,7 +1818,7 @@ CREATE TABLE `order_accept_2024-05-09`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-05-10`
+CREATE TABLE `order_accept_20240510`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -1832,7 +1832,7 @@ CREATE TABLE `order_accept_2024-05-10`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-05-11`
+CREATE TABLE `order_accept_20240511`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -1846,7 +1846,7 @@ CREATE TABLE `order_accept_2024-05-11`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-05-12`
+CREATE TABLE `order_accept_20240512`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -1860,7 +1860,7 @@ CREATE TABLE `order_accept_2024-05-12`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-05-13`
+CREATE TABLE `order_accept_20240513`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -1874,7 +1874,7 @@ CREATE TABLE `order_accept_2024-05-13`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-05-14`
+CREATE TABLE `order_accept_20240514`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -1888,7 +1888,7 @@ CREATE TABLE `order_accept_2024-05-14`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-05-15`
+CREATE TABLE `order_accept_20240515`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -1902,7 +1902,7 @@ CREATE TABLE `order_accept_2024-05-15`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-05-16`
+CREATE TABLE `order_accept_20240516`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -1916,7 +1916,7 @@ CREATE TABLE `order_accept_2024-05-16`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-05-17`
+CREATE TABLE `order_accept_20240517`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -1930,7 +1930,7 @@ CREATE TABLE `order_accept_2024-05-17`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-05-18`
+CREATE TABLE `order_accept_20240518`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -1944,7 +1944,7 @@ CREATE TABLE `order_accept_2024-05-18`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-05-19`
+CREATE TABLE `order_accept_20240519`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -1958,7 +1958,7 @@ CREATE TABLE `order_accept_2024-05-19`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-05-20`
+CREATE TABLE `order_accept_20240520`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -1972,7 +1972,7 @@ CREATE TABLE `order_accept_2024-05-20`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-05-21`
+CREATE TABLE `order_accept_20240521`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -1986,7 +1986,7 @@ CREATE TABLE `order_accept_2024-05-21`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-05-22`
+CREATE TABLE `order_accept_20240522`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -2000,7 +2000,7 @@ CREATE TABLE `order_accept_2024-05-22`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-05-23`
+CREATE TABLE `order_accept_20240523`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -2014,7 +2014,7 @@ CREATE TABLE `order_accept_2024-05-23`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-05-24`
+CREATE TABLE `order_accept_20240524`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -2028,7 +2028,7 @@ CREATE TABLE `order_accept_2024-05-24`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-05-25`
+CREATE TABLE `order_accept_20240525`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -2042,7 +2042,7 @@ CREATE TABLE `order_accept_2024-05-25`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-05-26`
+CREATE TABLE `order_accept_20240526`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -2056,7 +2056,7 @@ CREATE TABLE `order_accept_2024-05-26`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-05-27`
+CREATE TABLE `order_accept_20240527`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -2070,7 +2070,7 @@ CREATE TABLE `order_accept_2024-05-27`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-05-28`
+CREATE TABLE `order_accept_20240528`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -2084,7 +2084,7 @@ CREATE TABLE `order_accept_2024-05-28`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-05-29`
+CREATE TABLE `order_accept_20240529`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -2098,7 +2098,7 @@ CREATE TABLE `order_accept_2024-05-29`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-05-30`
+CREATE TABLE `order_accept_20240530`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -2112,7 +2112,7 @@ CREATE TABLE `order_accept_2024-05-30`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-05-31`
+CREATE TABLE `order_accept_20240531`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -2126,7 +2126,7 @@ CREATE TABLE `order_accept_2024-05-31`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-06-01`
+CREATE TABLE `order_accept_20240601`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -2140,7 +2140,7 @@ CREATE TABLE `order_accept_2024-06-01`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-06-02`
+CREATE TABLE `order_accept_20240602`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -2154,7 +2154,7 @@ CREATE TABLE `order_accept_2024-06-02`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-06-03`
+CREATE TABLE `order_accept_20240603`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -2168,7 +2168,7 @@ CREATE TABLE `order_accept_2024-06-03`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-06-04`
+CREATE TABLE `order_accept_20240604`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -2182,7 +2182,7 @@ CREATE TABLE `order_accept_2024-06-04`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-06-05`
+CREATE TABLE `order_accept_20240605`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -2196,7 +2196,7 @@ CREATE TABLE `order_accept_2024-06-05`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-06-06`
+CREATE TABLE `order_accept_20240606`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -2210,7 +2210,7 @@ CREATE TABLE `order_accept_2024-06-06`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-06-07`
+CREATE TABLE `order_accept_20240607`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -2224,7 +2224,7 @@ CREATE TABLE `order_accept_2024-06-07`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-06-08`
+CREATE TABLE `order_accept_20240608`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -2238,7 +2238,7 @@ CREATE TABLE `order_accept_2024-06-08`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-06-09`
+CREATE TABLE `order_accept_20240609`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -2252,7 +2252,7 @@ CREATE TABLE `order_accept_2024-06-09`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-06-10`
+CREATE TABLE `order_accept_20240610`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -2266,7 +2266,7 @@ CREATE TABLE `order_accept_2024-06-10`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-06-11`
+CREATE TABLE `order_accept_20240611`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -2280,7 +2280,7 @@ CREATE TABLE `order_accept_2024-06-11`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-06-12`
+CREATE TABLE `order_accept_20240612`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -2294,7 +2294,7 @@ CREATE TABLE `order_accept_2024-06-12`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-06-13`
+CREATE TABLE `order_accept_20240613`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -2308,7 +2308,7 @@ CREATE TABLE `order_accept_2024-06-13`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-06-14`
+CREATE TABLE `order_accept_20240614`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -2322,7 +2322,7 @@ CREATE TABLE `order_accept_2024-06-14`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-06-15`
+CREATE TABLE `order_accept_20240615`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -2336,7 +2336,7 @@ CREATE TABLE `order_accept_2024-06-15`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-06-16`
+CREATE TABLE `order_accept_20240616`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -2350,7 +2350,7 @@ CREATE TABLE `order_accept_2024-06-16`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-06-17`
+CREATE TABLE `order_accept_20240617`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -2364,7 +2364,7 @@ CREATE TABLE `order_accept_2024-06-17`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-06-18`
+CREATE TABLE `order_accept_20240618`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -2378,7 +2378,7 @@ CREATE TABLE `order_accept_2024-06-18`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-06-19`
+CREATE TABLE `order_accept_20240619`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -2392,7 +2392,7 @@ CREATE TABLE `order_accept_2024-06-19`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-06-20`
+CREATE TABLE `order_accept_20240620`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -2406,7 +2406,7 @@ CREATE TABLE `order_accept_2024-06-20`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-06-21`
+CREATE TABLE `order_accept_20240621`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -2420,7 +2420,7 @@ CREATE TABLE `order_accept_2024-06-21`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-06-22`
+CREATE TABLE `order_accept_20240622`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -2434,7 +2434,7 @@ CREATE TABLE `order_accept_2024-06-22`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-06-23`
+CREATE TABLE `order_accept_20240623`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -2448,7 +2448,7 @@ CREATE TABLE `order_accept_2024-06-23`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-06-24`
+CREATE TABLE `order_accept_20240624`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -2462,7 +2462,7 @@ CREATE TABLE `order_accept_2024-06-24`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-06-25`
+CREATE TABLE `order_accept_20240625`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -2476,7 +2476,7 @@ CREATE TABLE `order_accept_2024-06-25`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-06-26`
+CREATE TABLE `order_accept_20240626`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -2490,7 +2490,7 @@ CREATE TABLE `order_accept_2024-06-26`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-06-27`
+CREATE TABLE `order_accept_20240627`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -2504,7 +2504,7 @@ CREATE TABLE `order_accept_2024-06-27`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-06-28`
+CREATE TABLE `order_accept_20240628`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -2518,7 +2518,7 @@ CREATE TABLE `order_accept_2024-06-28`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-06-29`
+CREATE TABLE `order_accept_20240629`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -2532,7 +2532,7 @@ CREATE TABLE `order_accept_2024-06-29`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-06-30`
+CREATE TABLE `order_accept_20240630`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -2546,7 +2546,7 @@ CREATE TABLE `order_accept_2024-06-30`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-07-01`
+CREATE TABLE `order_accept_20240701`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -2560,7 +2560,7 @@ CREATE TABLE `order_accept_2024-07-01`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-07-02`
+CREATE TABLE `order_accept_20240702`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -2574,7 +2574,7 @@ CREATE TABLE `order_accept_2024-07-02`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-07-03`
+CREATE TABLE `order_accept_20240703`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -2588,7 +2588,7 @@ CREATE TABLE `order_accept_2024-07-03`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-07-04`
+CREATE TABLE `order_accept_20240704`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -2602,7 +2602,7 @@ CREATE TABLE `order_accept_2024-07-04`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-07-05`
+CREATE TABLE `order_accept_20240705`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -2616,7 +2616,7 @@ CREATE TABLE `order_accept_2024-07-05`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-07-06`
+CREATE TABLE `order_accept_20240706`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -2630,7 +2630,7 @@ CREATE TABLE `order_accept_2024-07-06`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-07-07`
+CREATE TABLE `order_accept_20240707`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -2644,7 +2644,7 @@ CREATE TABLE `order_accept_2024-07-07`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-07-08`
+CREATE TABLE `order_accept_20240708`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -2658,7 +2658,7 @@ CREATE TABLE `order_accept_2024-07-08`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-07-09`
+CREATE TABLE `order_accept_20240709`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -2672,7 +2672,7 @@ CREATE TABLE `order_accept_2024-07-09`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-07-10`
+CREATE TABLE `order_accept_20240710`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -2686,7 +2686,7 @@ CREATE TABLE `order_accept_2024-07-10`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-07-11`
+CREATE TABLE `order_accept_20240711`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -2700,7 +2700,7 @@ CREATE TABLE `order_accept_2024-07-11`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-07-12`
+CREATE TABLE `order_accept_20240712`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -2714,7 +2714,7 @@ CREATE TABLE `order_accept_2024-07-12`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-07-13`
+CREATE TABLE `order_accept_20240713`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -2728,7 +2728,7 @@ CREATE TABLE `order_accept_2024-07-13`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-07-14`
+CREATE TABLE `order_accept_20240714`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -2742,7 +2742,7 @@ CREATE TABLE `order_accept_2024-07-14`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-07-15`
+CREATE TABLE `order_accept_20240715`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -2756,7 +2756,7 @@ CREATE TABLE `order_accept_2024-07-15`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-07-16`
+CREATE TABLE `order_accept_20240716`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -2770,7 +2770,7 @@ CREATE TABLE `order_accept_2024-07-16`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-07-17`
+CREATE TABLE `order_accept_20240717`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -2784,7 +2784,7 @@ CREATE TABLE `order_accept_2024-07-17`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-07-18`
+CREATE TABLE `order_accept_20240718`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -2798,7 +2798,7 @@ CREATE TABLE `order_accept_2024-07-18`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-07-19`
+CREATE TABLE `order_accept_20240719`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -2812,7 +2812,7 @@ CREATE TABLE `order_accept_2024-07-19`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-07-20`
+CREATE TABLE `order_accept_20240720`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -2826,7 +2826,7 @@ CREATE TABLE `order_accept_2024-07-20`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-07-21`
+CREATE TABLE `order_accept_20240721`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -2840,7 +2840,7 @@ CREATE TABLE `order_accept_2024-07-21`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-07-22`
+CREATE TABLE `order_accept_20240722`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -2854,7 +2854,7 @@ CREATE TABLE `order_accept_2024-07-22`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-07-23`
+CREATE TABLE `order_accept_20240723`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -2868,7 +2868,7 @@ CREATE TABLE `order_accept_2024-07-23`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-07-24`
+CREATE TABLE `order_accept_20240724`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -2882,7 +2882,7 @@ CREATE TABLE `order_accept_2024-07-24`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-07-25`
+CREATE TABLE `order_accept_20240725`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -2896,7 +2896,7 @@ CREATE TABLE `order_accept_2024-07-25`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-07-26`
+CREATE TABLE `order_accept_20240726`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -2910,7 +2910,7 @@ CREATE TABLE `order_accept_2024-07-26`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-07-27`
+CREATE TABLE `order_accept_20240727`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -2924,7 +2924,7 @@ CREATE TABLE `order_accept_2024-07-27`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-07-28`
+CREATE TABLE `order_accept_20240728`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -2938,7 +2938,7 @@ CREATE TABLE `order_accept_2024-07-28`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-07-29`
+CREATE TABLE `order_accept_20240729`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -2952,7 +2952,7 @@ CREATE TABLE `order_accept_2024-07-29`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-07-30`
+CREATE TABLE `order_accept_20240730`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -2966,7 +2966,7 @@ CREATE TABLE `order_accept_2024-07-30`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-07-31`
+CREATE TABLE `order_accept_20240731`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -2980,7 +2980,7 @@ CREATE TABLE `order_accept_2024-07-31`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-08-01`
+CREATE TABLE `order_accept_20240801`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -2994,7 +2994,7 @@ CREATE TABLE `order_accept_2024-08-01`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-08-02`
+CREATE TABLE `order_accept_20240802`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -3008,7 +3008,7 @@ CREATE TABLE `order_accept_2024-08-02`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-08-03`
+CREATE TABLE `order_accept_20240803`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -3022,7 +3022,7 @@ CREATE TABLE `order_accept_2024-08-03`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-08-04`
+CREATE TABLE `order_accept_20240804`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -3036,7 +3036,7 @@ CREATE TABLE `order_accept_2024-08-04`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-08-05`
+CREATE TABLE `order_accept_20240805`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -3050,7 +3050,7 @@ CREATE TABLE `order_accept_2024-08-05`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-08-06`
+CREATE TABLE `order_accept_20240806`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -3064,7 +3064,7 @@ CREATE TABLE `order_accept_2024-08-06`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-08-07`
+CREATE TABLE `order_accept_20240807`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -3078,7 +3078,7 @@ CREATE TABLE `order_accept_2024-08-07`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-08-08`
+CREATE TABLE `order_accept_20240808`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -3092,7 +3092,7 @@ CREATE TABLE `order_accept_2024-08-08`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-08-09`
+CREATE TABLE `order_accept_20240809`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -3106,7 +3106,7 @@ CREATE TABLE `order_accept_2024-08-09`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-08-10`
+CREATE TABLE `order_accept_20240810`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -3120,7 +3120,7 @@ CREATE TABLE `order_accept_2024-08-10`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-08-11`
+CREATE TABLE `order_accept_20240811`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -3134,7 +3134,7 @@ CREATE TABLE `order_accept_2024-08-11`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-08-12`
+CREATE TABLE `order_accept_20240812`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -3148,7 +3148,7 @@ CREATE TABLE `order_accept_2024-08-12`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-08-13`
+CREATE TABLE `order_accept_20240813`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -3162,7 +3162,7 @@ CREATE TABLE `order_accept_2024-08-13`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-08-14`
+CREATE TABLE `order_accept_20240814`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -3176,7 +3176,7 @@ CREATE TABLE `order_accept_2024-08-14`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-08-15`
+CREATE TABLE `order_accept_20240815`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -3190,7 +3190,7 @@ CREATE TABLE `order_accept_2024-08-15`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-08-16`
+CREATE TABLE `order_accept_20240816`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -3204,7 +3204,7 @@ CREATE TABLE `order_accept_2024-08-16`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-08-17`
+CREATE TABLE `order_accept_20240817`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -3218,7 +3218,7 @@ CREATE TABLE `order_accept_2024-08-17`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-08-18`
+CREATE TABLE `order_accept_20240818`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -3232,7 +3232,7 @@ CREATE TABLE `order_accept_2024-08-18`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-08-19`
+CREATE TABLE `order_accept_20240819`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -3246,7 +3246,7 @@ CREATE TABLE `order_accept_2024-08-19`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-08-20`
+CREATE TABLE `order_accept_20240820`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -3260,7 +3260,7 @@ CREATE TABLE `order_accept_2024-08-20`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-08-21`
+CREATE TABLE `order_accept_20240821`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -3274,7 +3274,7 @@ CREATE TABLE `order_accept_2024-08-21`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-08-22`
+CREATE TABLE `order_accept_20240822`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -3288,7 +3288,7 @@ CREATE TABLE `order_accept_2024-08-22`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-08-23`
+CREATE TABLE `order_accept_20240823`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -3302,7 +3302,7 @@ CREATE TABLE `order_accept_2024-08-23`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-08-24`
+CREATE TABLE `order_accept_20240824`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -3316,7 +3316,7 @@ CREATE TABLE `order_accept_2024-08-24`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-08-25`
+CREATE TABLE `order_accept_20240825`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -3330,7 +3330,7 @@ CREATE TABLE `order_accept_2024-08-25`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-08-26`
+CREATE TABLE `order_accept_20240826`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -3344,7 +3344,7 @@ CREATE TABLE `order_accept_2024-08-26`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-08-27`
+CREATE TABLE `order_accept_20240827`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -3358,7 +3358,7 @@ CREATE TABLE `order_accept_2024-08-27`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-08-28`
+CREATE TABLE `order_accept_20240828`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -3372,7 +3372,7 @@ CREATE TABLE `order_accept_2024-08-28`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-08-29`
+CREATE TABLE `order_accept_20240829`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -3386,7 +3386,7 @@ CREATE TABLE `order_accept_2024-08-29`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-08-30`
+CREATE TABLE `order_accept_20240830`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -3400,7 +3400,7 @@ CREATE TABLE `order_accept_2024-08-30`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-08-31`
+CREATE TABLE `order_accept_20240831`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -3414,7 +3414,7 @@ CREATE TABLE `order_accept_2024-08-31`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-09-01`
+CREATE TABLE `order_accept_20240901`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -3428,7 +3428,7 @@ CREATE TABLE `order_accept_2024-09-01`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-09-02`
+CREATE TABLE `order_accept_20240902`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -3442,7 +3442,7 @@ CREATE TABLE `order_accept_2024-09-02`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-09-03`
+CREATE TABLE `order_accept_20240903`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -3456,7 +3456,7 @@ CREATE TABLE `order_accept_2024-09-03`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-09-04`
+CREATE TABLE `order_accept_20240904`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -3470,7 +3470,7 @@ CREATE TABLE `order_accept_2024-09-04`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-09-05`
+CREATE TABLE `order_accept_20240905`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -3484,7 +3484,7 @@ CREATE TABLE `order_accept_2024-09-05`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-09-06`
+CREATE TABLE `order_accept_20240906`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -3498,7 +3498,7 @@ CREATE TABLE `order_accept_2024-09-06`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-09-07`
+CREATE TABLE `order_accept_20240907`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -3512,7 +3512,7 @@ CREATE TABLE `order_accept_2024-09-07`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-09-08`
+CREATE TABLE `order_accept_20240908`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -3526,7 +3526,7 @@ CREATE TABLE `order_accept_2024-09-08`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-09-09`
+CREATE TABLE `order_accept_20240909`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -3540,7 +3540,7 @@ CREATE TABLE `order_accept_2024-09-09`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-09-10`
+CREATE TABLE `order_accept_20240910`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -3554,7 +3554,7 @@ CREATE TABLE `order_accept_2024-09-10`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-09-11`
+CREATE TABLE `order_accept_20240911`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -3568,7 +3568,7 @@ CREATE TABLE `order_accept_2024-09-11`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-09-12`
+CREATE TABLE `order_accept_20240912`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -3582,7 +3582,7 @@ CREATE TABLE `order_accept_2024-09-12`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-09-13`
+CREATE TABLE `order_accept_20240913`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -3596,7 +3596,7 @@ CREATE TABLE `order_accept_2024-09-13`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-09-14`
+CREATE TABLE `order_accept_20240914`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -3610,7 +3610,7 @@ CREATE TABLE `order_accept_2024-09-14`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-09-15`
+CREATE TABLE `order_accept_20240915`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -3624,7 +3624,7 @@ CREATE TABLE `order_accept_2024-09-15`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-09-16`
+CREATE TABLE `order_accept_20240916`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -3638,7 +3638,7 @@ CREATE TABLE `order_accept_2024-09-16`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-09-17`
+CREATE TABLE `order_accept_20240917`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -3652,7 +3652,7 @@ CREATE TABLE `order_accept_2024-09-17`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-09-18`
+CREATE TABLE `order_accept_20240918`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -3666,7 +3666,7 @@ CREATE TABLE `order_accept_2024-09-18`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-09-19`
+CREATE TABLE `order_accept_20240919`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -3680,7 +3680,7 @@ CREATE TABLE `order_accept_2024-09-19`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-09-20`
+CREATE TABLE `order_accept_20240920`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -3694,7 +3694,7 @@ CREATE TABLE `order_accept_2024-09-20`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-09-21`
+CREATE TABLE `order_accept_20240921`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -3708,7 +3708,7 @@ CREATE TABLE `order_accept_2024-09-21`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-09-22`
+CREATE TABLE `order_accept_20240922`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -3722,7 +3722,7 @@ CREATE TABLE `order_accept_2024-09-22`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-09-23`
+CREATE TABLE `order_accept_20240923`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -3736,7 +3736,7 @@ CREATE TABLE `order_accept_2024-09-23`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-09-24`
+CREATE TABLE `order_accept_20240924`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -3750,7 +3750,7 @@ CREATE TABLE `order_accept_2024-09-24`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-09-25`
+CREATE TABLE `order_accept_20240925`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -3764,7 +3764,7 @@ CREATE TABLE `order_accept_2024-09-25`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-09-26`
+CREATE TABLE `order_accept_20240926`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -3778,7 +3778,7 @@ CREATE TABLE `order_accept_2024-09-26`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-09-27`
+CREATE TABLE `order_accept_20240927`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -3792,7 +3792,7 @@ CREATE TABLE `order_accept_2024-09-27`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-09-28`
+CREATE TABLE `order_accept_20240928`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -3806,7 +3806,7 @@ CREATE TABLE `order_accept_2024-09-28`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-09-29`
+CREATE TABLE `order_accept_20240929`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -3820,7 +3820,7 @@ CREATE TABLE `order_accept_2024-09-29`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-09-30`
+CREATE TABLE `order_accept_20240930`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -3834,7 +3834,7 @@ CREATE TABLE `order_accept_2024-09-30`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-10-01`
+CREATE TABLE `order_accept_20241001`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -3848,7 +3848,7 @@ CREATE TABLE `order_accept_2024-10-01`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-10-02`
+CREATE TABLE `order_accept_20241002`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -3862,7 +3862,7 @@ CREATE TABLE `order_accept_2024-10-02`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-10-03`
+CREATE TABLE `order_accept_20241003`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -3876,7 +3876,7 @@ CREATE TABLE `order_accept_2024-10-03`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-10-04`
+CREATE TABLE `order_accept_20241004`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -3890,7 +3890,7 @@ CREATE TABLE `order_accept_2024-10-04`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-10-05`
+CREATE TABLE `order_accept_20241005`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -3904,7 +3904,7 @@ CREATE TABLE `order_accept_2024-10-05`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-10-06`
+CREATE TABLE `order_accept_20241006`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -3918,7 +3918,7 @@ CREATE TABLE `order_accept_2024-10-06`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-10-07`
+CREATE TABLE `order_accept_20241007`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -3932,7 +3932,7 @@ CREATE TABLE `order_accept_2024-10-07`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-10-08`
+CREATE TABLE `order_accept_20241008`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -3946,7 +3946,7 @@ CREATE TABLE `order_accept_2024-10-08`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-10-09`
+CREATE TABLE `order_accept_20241009`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -3960,7 +3960,7 @@ CREATE TABLE `order_accept_2024-10-09`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-10-10`
+CREATE TABLE `order_accept_20241010`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -3974,7 +3974,7 @@ CREATE TABLE `order_accept_2024-10-10`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-10-11`
+CREATE TABLE `order_accept_20241011`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -3988,7 +3988,7 @@ CREATE TABLE `order_accept_2024-10-11`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-10-12`
+CREATE TABLE `order_accept_20241012`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -4002,7 +4002,7 @@ CREATE TABLE `order_accept_2024-10-12`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-10-13`
+CREATE TABLE `order_accept_20241013`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -4016,7 +4016,7 @@ CREATE TABLE `order_accept_2024-10-13`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-10-14`
+CREATE TABLE `order_accept_20241014`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -4030,7 +4030,7 @@ CREATE TABLE `order_accept_2024-10-14`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-10-15`
+CREATE TABLE `order_accept_20241015`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -4044,7 +4044,7 @@ CREATE TABLE `order_accept_2024-10-15`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-10-16`
+CREATE TABLE `order_accept_20241016`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -4058,7 +4058,7 @@ CREATE TABLE `order_accept_2024-10-16`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-10-17`
+CREATE TABLE `order_accept_20241017`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -4072,7 +4072,7 @@ CREATE TABLE `order_accept_2024-10-17`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-10-18`
+CREATE TABLE `order_accept_20241018`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -4086,7 +4086,7 @@ CREATE TABLE `order_accept_2024-10-18`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-10-19`
+CREATE TABLE `order_accept_20241019`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -4100,7 +4100,7 @@ CREATE TABLE `order_accept_2024-10-19`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-10-20`
+CREATE TABLE `order_accept_20241020`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -4114,7 +4114,7 @@ CREATE TABLE `order_accept_2024-10-20`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-10-21`
+CREATE TABLE `order_accept_20241021`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -4128,7 +4128,7 @@ CREATE TABLE `order_accept_2024-10-21`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-10-22`
+CREATE TABLE `order_accept_20241022`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -4142,7 +4142,7 @@ CREATE TABLE `order_accept_2024-10-22`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-10-23`
+CREATE TABLE `order_accept_20241023`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -4156,7 +4156,7 @@ CREATE TABLE `order_accept_2024-10-23`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-10-24`
+CREATE TABLE `order_accept_20241024`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -4170,7 +4170,7 @@ CREATE TABLE `order_accept_2024-10-24`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-10-25`
+CREATE TABLE `order_accept_20241025`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -4184,7 +4184,7 @@ CREATE TABLE `order_accept_2024-10-25`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-10-26`
+CREATE TABLE `order_accept_20241026`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -4198,7 +4198,7 @@ CREATE TABLE `order_accept_2024-10-26`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-10-27`
+CREATE TABLE `order_accept_20241027`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -4212,7 +4212,7 @@ CREATE TABLE `order_accept_2024-10-27`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-10-28`
+CREATE TABLE `order_accept_20241028`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -4226,7 +4226,7 @@ CREATE TABLE `order_accept_2024-10-28`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-10-29`
+CREATE TABLE `order_accept_20241029`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -4240,7 +4240,7 @@ CREATE TABLE `order_accept_2024-10-29`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-10-30`
+CREATE TABLE `order_accept_20241030`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -4254,7 +4254,7 @@ CREATE TABLE `order_accept_2024-10-30`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-10-31`
+CREATE TABLE `order_accept_20241031`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -4268,7 +4268,7 @@ CREATE TABLE `order_accept_2024-10-31`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-11-01`
+CREATE TABLE `order_accept_20241101`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -4282,7 +4282,7 @@ CREATE TABLE `order_accept_2024-11-01`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-11-02`
+CREATE TABLE `order_accept_20241102`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -4296,7 +4296,7 @@ CREATE TABLE `order_accept_2024-11-02`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-11-03`
+CREATE TABLE `order_accept_20241103`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -4310,7 +4310,7 @@ CREATE TABLE `order_accept_2024-11-03`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-11-04`
+CREATE TABLE `order_accept_20241104`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -4324,7 +4324,7 @@ CREATE TABLE `order_accept_2024-11-04`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-11-05`
+CREATE TABLE `order_accept_20241105`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -4338,7 +4338,7 @@ CREATE TABLE `order_accept_2024-11-05`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-11-06`
+CREATE TABLE `order_accept_20241106`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -4352,7 +4352,7 @@ CREATE TABLE `order_accept_2024-11-06`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-11-07`
+CREATE TABLE `order_accept_20241107`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -4366,7 +4366,7 @@ CREATE TABLE `order_accept_2024-11-07`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-11-08`
+CREATE TABLE `order_accept_20241108`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -4380,7 +4380,7 @@ CREATE TABLE `order_accept_2024-11-08`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-11-09`
+CREATE TABLE `order_accept_20241109`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -4394,7 +4394,7 @@ CREATE TABLE `order_accept_2024-11-09`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-11-10`
+CREATE TABLE `order_accept_20241110`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -4408,7 +4408,7 @@ CREATE TABLE `order_accept_2024-11-10`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-11-11`
+CREATE TABLE `order_accept_20241111`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -4422,7 +4422,7 @@ CREATE TABLE `order_accept_2024-11-11`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-11-12`
+CREATE TABLE `order_accept_20241112`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -4436,7 +4436,7 @@ CREATE TABLE `order_accept_2024-11-12`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-11-13`
+CREATE TABLE `order_accept_20241113`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -4450,7 +4450,7 @@ CREATE TABLE `order_accept_2024-11-13`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-11-14`
+CREATE TABLE `order_accept_20241114`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -4464,7 +4464,7 @@ CREATE TABLE `order_accept_2024-11-14`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-11-15`
+CREATE TABLE `order_accept_20241115`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -4478,7 +4478,7 @@ CREATE TABLE `order_accept_2024-11-15`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-11-16`
+CREATE TABLE `order_accept_20241116`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -4492,7 +4492,7 @@ CREATE TABLE `order_accept_2024-11-16`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-11-17`
+CREATE TABLE `order_accept_20241117`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -4506,7 +4506,7 @@ CREATE TABLE `order_accept_2024-11-17`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-11-18`
+CREATE TABLE `order_accept_20241118`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -4520,7 +4520,7 @@ CREATE TABLE `order_accept_2024-11-18`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-11-19`
+CREATE TABLE `order_accept_20241119`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -4534,7 +4534,7 @@ CREATE TABLE `order_accept_2024-11-19`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-11-20`
+CREATE TABLE `order_accept_20241120`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -4548,7 +4548,7 @@ CREATE TABLE `order_accept_2024-11-20`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-11-21`
+CREATE TABLE `order_accept_20241121`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -4562,7 +4562,7 @@ CREATE TABLE `order_accept_2024-11-21`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-11-22`
+CREATE TABLE `order_accept_20241122`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -4576,7 +4576,7 @@ CREATE TABLE `order_accept_2024-11-22`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-11-23`
+CREATE TABLE `order_accept_20241123`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -4590,7 +4590,7 @@ CREATE TABLE `order_accept_2024-11-23`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-11-24`
+CREATE TABLE `order_accept_20241124`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -4604,7 +4604,7 @@ CREATE TABLE `order_accept_2024-11-24`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-11-25`
+CREATE TABLE `order_accept_20241125`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -4618,7 +4618,7 @@ CREATE TABLE `order_accept_2024-11-25`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-11-26`
+CREATE TABLE `order_accept_20241126`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -4632,7 +4632,7 @@ CREATE TABLE `order_accept_2024-11-26`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-11-27`
+CREATE TABLE `order_accept_20241127`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -4646,7 +4646,7 @@ CREATE TABLE `order_accept_2024-11-27`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-11-28`
+CREATE TABLE `order_accept_20241128`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -4660,7 +4660,7 @@ CREATE TABLE `order_accept_2024-11-28`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-11-29`
+CREATE TABLE `order_accept_20241129`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -4674,7 +4674,7 @@ CREATE TABLE `order_accept_2024-11-29`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-11-30`
+CREATE TABLE `order_accept_20241130`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -4688,7 +4688,7 @@ CREATE TABLE `order_accept_2024-11-30`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-12-01`
+CREATE TABLE `order_accept_20241201`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -4702,7 +4702,7 @@ CREATE TABLE `order_accept_2024-12-01`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-12-02`
+CREATE TABLE `order_accept_20241202`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -4716,7 +4716,7 @@ CREATE TABLE `order_accept_2024-12-02`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-12-03`
+CREATE TABLE `order_accept_20241203`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -4730,7 +4730,7 @@ CREATE TABLE `order_accept_2024-12-03`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-12-04`
+CREATE TABLE `order_accept_20241204`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -4744,7 +4744,7 @@ CREATE TABLE `order_accept_2024-12-04`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-12-05`
+CREATE TABLE `order_accept_20241205`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -4758,7 +4758,7 @@ CREATE TABLE `order_accept_2024-12-05`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-12-06`
+CREATE TABLE `order_accept_20241206`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -4772,7 +4772,7 @@ CREATE TABLE `order_accept_2024-12-06`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-12-07`
+CREATE TABLE `order_accept_20241207`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -4786,7 +4786,7 @@ CREATE TABLE `order_accept_2024-12-07`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-12-08`
+CREATE TABLE `order_accept_20241208`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -4800,7 +4800,7 @@ CREATE TABLE `order_accept_2024-12-08`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-12-09`
+CREATE TABLE `order_accept_20241209`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -4814,7 +4814,7 @@ CREATE TABLE `order_accept_2024-12-09`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-12-10`
+CREATE TABLE `order_accept_20241210`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -4828,7 +4828,7 @@ CREATE TABLE `order_accept_2024-12-10`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-12-11`
+CREATE TABLE `order_accept_20241211`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -4842,7 +4842,7 @@ CREATE TABLE `order_accept_2024-12-11`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-12-12`
+CREATE TABLE `order_accept_20241212`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -4856,7 +4856,7 @@ CREATE TABLE `order_accept_2024-12-12`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-12-13`
+CREATE TABLE `order_accept_20241213`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -4870,7 +4870,7 @@ CREATE TABLE `order_accept_2024-12-13`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-12-14`
+CREATE TABLE `order_accept_20241214`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -4884,7 +4884,7 @@ CREATE TABLE `order_accept_2024-12-14`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-12-15`
+CREATE TABLE `order_accept_20241215`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -4898,7 +4898,7 @@ CREATE TABLE `order_accept_2024-12-15`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-12-16`
+CREATE TABLE `order_accept_20241216`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -4912,7 +4912,7 @@ CREATE TABLE `order_accept_2024-12-16`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-12-17`
+CREATE TABLE `order_accept_20241217`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -4926,7 +4926,7 @@ CREATE TABLE `order_accept_2024-12-17`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-12-18`
+CREATE TABLE `order_accept_20241218`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -4940,7 +4940,7 @@ CREATE TABLE `order_accept_2024-12-18`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-12-19`
+CREATE TABLE `order_accept_20241219`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -4954,7 +4954,7 @@ CREATE TABLE `order_accept_2024-12-19`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-12-20`
+CREATE TABLE `order_accept_20241220`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -4968,7 +4968,7 @@ CREATE TABLE `order_accept_2024-12-20`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-12-21`
+CREATE TABLE `order_accept_20241221`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -4982,7 +4982,7 @@ CREATE TABLE `order_accept_2024-12-21`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-12-22`
+CREATE TABLE `order_accept_20241222`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -4996,7 +4996,7 @@ CREATE TABLE `order_accept_2024-12-22`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-12-23`
+CREATE TABLE `order_accept_20241223`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -5010,7 +5010,7 @@ CREATE TABLE `order_accept_2024-12-23`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-12-24`
+CREATE TABLE `order_accept_20241224`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -5024,7 +5024,7 @@ CREATE TABLE `order_accept_2024-12-24`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-12-25`
+CREATE TABLE `order_accept_20241225`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -5038,7 +5038,7 @@ CREATE TABLE `order_accept_2024-12-25`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-12-26`
+CREATE TABLE `order_accept_20241226`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -5052,7 +5052,7 @@ CREATE TABLE `order_accept_2024-12-26`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-12-27`
+CREATE TABLE `order_accept_20241227`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -5066,7 +5066,7 @@ CREATE TABLE `order_accept_2024-12-27`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-12-28`
+CREATE TABLE `order_accept_20241228`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -5080,7 +5080,7 @@ CREATE TABLE `order_accept_2024-12-28`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-12-29`
+CREATE TABLE `order_accept_20241229`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -5094,7 +5094,7 @@ CREATE TABLE `order_accept_2024-12-29`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-12-30`
+CREATE TABLE `order_accept_20241230`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -5108,7 +5108,7 @@ CREATE TABLE `order_accept_2024-12-30`
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
   COLLATE = utf8mb4_general_ci;
-CREATE TABLE `order_accept_2024-12-31`
+CREATE TABLE `order_accept_20241231`
 (
     `id`           bigint                                                        NOT NULL AUTO_INCREMENT COMMENT 'ID',
     `create_time`  datetime                                                      NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',

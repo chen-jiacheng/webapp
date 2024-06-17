@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:mybatis-spring="http://mybatis.org/schema/mybatis-spring"
+       xmlns:sharding="http://shardingsphere.io/schema/shardingsphere/sharding"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/mvc https://www.springframework.org/schema/mvc/spring-mvc.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd http://mybatis.org/schema/mybatis-spring http://mybatis.org/schema/mybatis-spring.xsd http://shardingsphere.io/schema/shardingsphere/sharding http://shardingsphere.io/schema/shardingsphere/sharding/sharding.xsd">
+
+
+    <bean id="datasource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <property name="driverClassName" value="com.mysql.cj.jdbc.Driver"/>
+        <property name="url" value="jdbc:mysql://127.0.0.1:3306/webapp"/>
+        <property name="username" value="root"/>
+        <property name="password" value="Yqywf,Rmhpy.1@"/>
+    </bean>
+
+    <bean id="requestDateTableShardingAlgorithm" class="com.chenjiacheng.webapp.dao.algorithm.RequestDateTableShardingAlgorithm"/>
+
+    <sharding:standard-strategy id="orderTableStrategy"
+                                sharding-column="request_date"
+                                precise-algorithm-ref="requestDateTableShardingAlgorithm"
+                                range-algorithm-ref="requestDateTableShardingAlgorithm"/>
+
+    <sharding:data-source id="shardingDatasource">
+        <sharding:sharding-rule data-source-names="datasource" default-data-source-name="datasource">
+            <sharding:table-rules>
+                <sharding:table-rule logic-table="order_accept"
+                                     actual-data-nodes="datasource.order_accept_"
+                                     table-strategy-ref="orderTableStrategy"
+                />
+            </sharding:table-rules>
+        </sharding:sharding-rule>
+    </sharding:data-source>
+
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="shardingDatasource"/>
+    </bean>
+</beans>

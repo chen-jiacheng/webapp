@@ -72,7 +72,7 @@ public class TextUtilTest {
         String template = Files.lines(Paths.get(templateFilePath))
                 .collect(Collectors.joining(System.lineSeparator()));
         //2. 循环生成数据
-        DateTimeFormatter format = DateTimeFormatter.ofPattern("yyyy-MM-dd");
+        DateTimeFormatter format = DateTimeFormatter.ofPattern("yyyyMMdd");
         LocalDate localDate = LocalDate.of(2024, Month.JANUARY, 1);
         List<String> sqlList = new ArrayList<>();
         while (localDate.getYear()==2024){
@@ -96,7 +96,7 @@ public class TextUtilTest {
                 .collect(Collectors.joining(System.lineSeparator()));
         //2. 循环生成数据
         String db = "webapp";
-        DateTimeFormatter dateFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
+        DateTimeFormatter dateFormatter = DateTimeFormatter.ofPattern("yyyyMMdd");
         LocalDate localDate = LocalDate.of(2024, Month.JANUARY, 1);
         List<String> sqlList = new ArrayList<>();
         while (localDate.getYear()==2024){

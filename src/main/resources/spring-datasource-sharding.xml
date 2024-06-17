@@ -34,7 +34,7 @@
         </sharding:sharding-rule>
     </sharding:data-source>
 
-    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
-        <property name="dataSource" ref="shardingDatasource"/>
-    </bean>
+<!--    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">-->
+<!--        <property name="dataSource" ref="shardingDatasource"/>-->
+<!--    </bean>-->
 </beans>

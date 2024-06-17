@@ -1,0 +1,39 @@
+package com.chenjiacheng.webapp.config.aop;
+
+import com.chenjiacheng.webapp.config.ServerConfig;
+import org.aspectj.lang.annotation.After;
+import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.annotation.Before;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+import org.springframework.transaction.PlatformTransactionManager;
+
+@Aspect
+@Component
+public class TransactionAspect {
+
+    @Autowired
+    private PlatformTransactionManager txManager1;
+
+    @Autowired
+    private PlatformTransactionManager txManager2;
+
+    @Autowired
+    private ServerConfig serverConfig;
+
+    @Before(value = "@annotation(org.springframework.transaction.annotation.Transactional)")
+    public void beforeTransaction() {
+        String datasource = serverConfig.getDatasource();
+        // 根据 datasourceKey 动态选择事务管理器
+        if ("dataSource1".equals(datasource)) {
+            // 设置当前事务管理器为 txManager1
+        } else {
+            // 设置当前事务管理器为 txManager2
+        }
+    }
+
+    @After("@annotation(Transactional)")
+    public void afterTransaction() {
+        // 清理或恢复事务管理器
+    }
+}

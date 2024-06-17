@@ -16,8 +16,8 @@
         <property name="password" value="Yqywf,Rmhpy.1@"/>
     </bean>
 
-    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
-        <property name="dataSource" ref="partitionDatasource"/>
-    </bean>
+<!--    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">-->
+<!--        <property name="dataSource" ref="partitionDatasource"/>-->
+<!--    </bean>-->
 
 </beans>

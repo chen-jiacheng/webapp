@@ -2,6 +2,8 @@ package com.chenjiacheng.webapp.dao.mapper;
 
 import com.chenjiacheng.webapp.config.ServerConfig;
 import com.chenjiacheng.webapp.dao.model.OrderAcceptDO;
+import com.chenjiacheng.webapp.service.service.TransactionOrderServiceTest;
+import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,12 +22,16 @@ import java.util.concurrent.TimeUnit;
  * @author chenjiacheng
  * @since 1.0.0
  */
+@Slf4j
 @RunWith(SpringRunner.class)
 @ContextConfiguration(locations = "classpath:application.xml")
 public class OrderAcceptMapperTest {
 
     @Resource
     private OrderAcceptMapper orderAcceptMapper;
+
+    @Autowired
+    private TransactionOrderServiceTest transactionOrderServiceTest;
 
     @Autowired
     private ServerConfig serverConfig;
@@ -53,8 +59,29 @@ public class OrderAcceptMapperTest {
             int insert = orderAcceptMapper.insert(orderAccept);
             System.out.println("insert = " + insert);
         }
-
-
     }
+
+    // 测试数据源切换后，事务能正常使用
+    //@Transactional
+    //sharding: 1写2写回滚
+    //partition: 1写2写回滚
+    @Test
+    public void transactionTest(){
+        try {
+            transactionOrderServiceTest.doubleWrite();
+        }catch (Exception e){
+            log.warn("shardingDatasource触发回滚:",e);
+        }
+        serverConfig.setDatasource("partitionDatasource");
+        try {
+            transactionOrderServiceTest.doubleWrite();
+        }catch (Exception e){
+            log.warn("partitionDatasource触发回滚:",e);
+        }
+        // 预期结果: 数据库数据无变化
+    }
+
+
+
 
 }

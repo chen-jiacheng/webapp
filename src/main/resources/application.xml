@@ -45,6 +45,10 @@
         <property name="datasource" value="shardingDatasource"/>
     </bean>
 
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dynamicDataSource"/>
+    </bean>
+
     <!-- mybatis 配置  -->
     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
         <property name="dataSource" ref="dynamicDataSource"/>
